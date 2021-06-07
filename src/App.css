@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-size: 24px;
+}
+
+.table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+button {
+  cursor: pointer;
+  padding: 0 10px;
+  margin: 5px;
+}
+button:hover {
+  background: blue;
+}
+
+.add-contacts {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  display: block;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: black;
+  color: wheat;
+}
+
+.add-contacts:hover {
+  color: blue;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+}
